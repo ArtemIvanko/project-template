@@ -1,7 +1,7 @@
-import { Poster } from "@utils/Poster";
+import { Outlet as RootOutlet } from "react-router-dom";
 
 export const Outlet = () => (
   <div>
-    <Poster />
+    <RootOutlet />
   </div>
 );
